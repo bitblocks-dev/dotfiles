@@ -1,0 +1,22 @@
+#!/bin/sh
+NAME=$@
+FULL_PATH=$@/Main.java
+mkdir -p ./$NAME
+touch ./$NAME/Main.java
+echo "/*--------------------------------------------------------------------------------------" >> $FULL_PATH
+echo "| AUTHOR: Ian Freeman" >> $FULL_PATH
+echo "| CREATED: "$(date +"%Y/%m/%d") >> $FULL_PATH
+echo "| DESC: " >> $FULL_PATH
+echo "--------------------------------------------------------------------------------------*/" >> $FULL_PATH
+echo "" >> $FULL_PATH
+echo "import " >> $FULL_PATH
+echo "" >> $FULL_PATH
+echo "" >> $FULL_PATH
+echo "class Main {   " >> $FULL_PATH
+echo "  public static void main(String[] args)" >> $FULL_PATH
+echo "  {" >> $FULL_PATH
+echo "  " >> $FULL_PATH
+echo "  " >> $FULL_PATH
+echo "  " >> $FULL_PATH
+echo "  }" >> $FULL_PATH
+echo "}" >> $FULL_PATH

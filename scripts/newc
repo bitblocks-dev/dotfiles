@@ -1,0 +1,21 @@
+#!/bin/sh
+NAME=$@
+FULL_PATH=$@/main.cpp
+mkdir -p ./$NAME
+touch ./$NAME/main.cpp
+echo "/*--------------------------------------------------------------------------------------" >> $FULL_PATH
+echo "| AUTHOR: Ian Freeman" >> $FULL_PATH
+echo "| CREATED: "$(date +"%Y/%m/%d") >> $FULL_PATH
+echo "| DESC: " >> $FULL_PATH
+echo "--------------------------------------------------------------------------------------*/" >> $FULL_PATH
+echo "" >> $FULL_PATH
+echo "#include <>" >> $FULL_PATH
+echo "" >> $FULL_PATH
+echo "using namespace std;" >> $FULL_PATH
+echo "" >> $FULL_PATH
+echo "// Declare Functions" >> $FULL_PATH
+echo "" >> $FULL_PATH
+echo "int main()" >> $FULL_PATH
+echo "{" >> $FULL_PATH
+echo "" >> $FULL_PATH
+echo "}" >> $FULL_PATH

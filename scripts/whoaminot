@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ $(id -u) -ne 0 ]; then
+    echo root
+else
+    echo ian
+fi

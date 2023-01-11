@@ -1,0 +1,3 @@
+#!/bin/zsh
+mutter --wayland --replace --sm-disable
+kitty
